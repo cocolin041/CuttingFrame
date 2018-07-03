@@ -1,7 +1,7 @@
 # CuttingFrame-4
 
 ## Demo
-https://cocolin041.github.io/CuttingFrame/t4/
+https://cocolin041.github.io/CuttingFrame/frame4/
 
 ## Original Design Image
 ![design](Template_4.png)

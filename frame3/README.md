@@ -1,7 +1,7 @@
 # CuttingFrame-3
 
 ## Demo
-https://cocolin041.github.io/CuttingFrame/t3/
+https://cocolin041.github.io/CuttingFrame/frame3/
 
 ## Original Design Image
 ![design](Template_3.png)
