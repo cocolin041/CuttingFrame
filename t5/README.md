@@ -1,4 +1,4 @@
-# CSS-Excercise-5
+# CuttingFrame-5
 
 ## Demo
 https://cocolin041.github.io/CuttingFrame/t5/

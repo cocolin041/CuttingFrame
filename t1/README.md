@@ -1,4 +1,4 @@
-# CuttingFrame_1
+# CuttingFrame-1
 first practice in HTML and CSS
 
 ## Demo
