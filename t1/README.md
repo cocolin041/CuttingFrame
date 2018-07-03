@@ -1,4 +1,8 @@
 # CuttingFrame_1
 first practice in HTML and CSS
 
-![demo](/coco/image/template_finish.png)
+## Demo
+https://cocolin041.github.io/CuttingFrame/t1/
+
+## Original Design Image
+![design](Template_1.png)
