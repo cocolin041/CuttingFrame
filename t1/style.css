@@ -1,0 +1,149 @@
+/*to remove white space around backgrounds*/
+body {
+  margin: 0px;
+  background-color: #f2f2f2;
+}
+* {
+  /*outline: red solid 1px;*/
+  font-family: sans-serif;
+  font-weight: normal;
+  overflow: auto;
+
+}
+h3 {
+  font-size: 25.5px;
+}
+p {
+  font-size: 14px;
+}
+/*---------------------------------------------------------------------------------------------class01*/
+.class01 {
+  width: 60%;
+  height: 15%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.class01 img {
+  height: 70%; 
+  width: auto;
+  margin-left: 20px;
+}
+.class01 button {
+  margin: 5%;
+  border: none;
+  background: none;
+  color: gray;
+  cursor: pointer;
+}
+.class01 button:hover {
+  color:orange;
+}
+/*---------------------------------------------------------------------------------------------class02*/
+
+.class02 {
+  background-color: #FCFBFC;
+  height: 60%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  /*background-size: 330px 330px; /*set the box size*/
+  /*background-position-x: 63%; /*set the box position on the x-axis*/
+  /*background-position-y: 45%; /*set the box position on the x-axis*/
+  }
+#wrap01 {
+  display: inline-flex;
+  justify-content: space-around;
+  background-color: #FCFBFC;
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.container01 {
+  margin-right: 0;
+  width: 45%;
+}
+.class02 p {
+  width: 91%;
+}
+.class02 h1, .class02 h3, .class02 p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.class02 h1 {
+  font-size: 53px;
+}
+#tryitnow {
+    margin-top: 10px;
+    padding-left: 60px;
+    width: 230px; 
+  }
+#dontworry {
+  font-size: 0.1em;
+  margin-top: -5px; 
+  padding-left: 65px;
+}
+.container02 {
+  width: 40%;
+  display: table-cell;
+  text-align: center;
+}
+.container02 img {
+  width: 100%;
+}
+
+/*---------------------------------------------------------------------------------------------class03*/
+.class03 {
+  clear: both;
+  background-color: white;
+  height: 55%;
+  overflow: hidden;
+  position: relative;
+}
+#wrap02 {
+  background-color: white;
+  width: 51%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.class03 h3 {
+  margin-top: 0;
+}
+.class03 p {
+  margin: 0;
+  margin-bottom: 20px;
+  column-count: 2;
+  column-gap: 80px;
+}
+/*---------------------------------------------------------------------------------------------class04*/
+.class04 {
+  background-color: #f2f2f2;
+  height: 7%;
+  width: 57%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.class04 i {
+  color: gray;
+  font-size: 3px;
+  display: inline-flex;
+}
+#SocialMedia i {
+  font-size: 30px;  /*to adjust the icon size*/
+  color: black;
+  margin: 10px;
+}
+#left {
+  color: grey;
+}
+#left span {
+  font-size: xx-small;
+}

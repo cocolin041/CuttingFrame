@@ -1,0 +1,210 @@
+/*
+*{
+  box-shadow: 0 0 1px red;
+}
+*/
+
+body{
+  margin: 0;
+  min-width: 918px;
+}
+
+body::after{
+  content: '';
+  position: absolute;
+  background: url("Template_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  /*top: 0;*/
+  left:0;
+  right:0;
+  bottom: 0;
+}
+/*-------------------------------------------------------------head*/
+.navigation {
+  min-width: 918px;
+  background-color: #595959;
+}
+.navigation_container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+  width: 900px;
+  padding: 15.98 0 15.98 0;
+}
+.navigation_container span {
+  font-family: "Segoe UI";
+  font-size: 22px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.navigation_container button {
+  background: none;
+  font-size: 17px;
+  border: none;
+}
+.navigation * {
+  color: #cccccc;
+}
+.navigation button:hover {
+  color: white;
+}
+/*-------------------------------------------------------------banner*/
+.banner {
+  background-image: url("./image/cover.jpg");
+  background-size: cover; /*to avoid background image being cut off when zooming*/
+  background-position: center top;
+  height: 600px;
+  text-align: center;
+  position: relative;
+}
+.banner_container {
+  background-color: rgba(255, 255, 255, 60%);
+  font-family: "Times New Roman";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 500px;
+  margin-top: 258px;
+}
+.banner_container > span {
+  color: rgba(0, 0, 0, 70%);
+  font-size: 58px;
+  font-weight: 900;
+  display: block;
+  margin: 20 0 10 0;
+}
+.banner_container > button {
+  background: #404040;
+  color: white;
+  border: none;
+  font-size: 19px;
+  padding: 10 57 10 57;
+  margin: 10 0 20 0;
+}
+/*-------------------------------------------------------------note*/
+.note {
+  background-color: #e6e6e6;
+}
+.note_container {
+  color: gray;
+  line-height: 51.98px;
+  text-align: center;
+}
+.note_container * {
+  color: black;
+  text-decoration: none; /*to avoid underline for the text link*/
+  font-size: 13px;
+  font-weight: 200; /*lighter the text*/
+  letter-spacing: 5px;
+}
+/*-------------------------------------------------------------main*/
+.main_container {
+  font-size: 0; /*to delete the white-space in element*/
+}
+/*---------------------------------------------above_product*/
+.above_product {
+  text-align: center;
+  margin: 86 0 86 0;
+}
+.above_product h1 {
+  font-size: 34px;
+  font-family: "Big Caslon";
+  letter-spacing: 11px;
+  word-spacing: 6px;
+  margin: 30px;
+}
+.above_product hr {
+  border: black 0.5px solid;
+  width: 31px;
+}
+.above_product h2 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 6px;
+  margin: 30px;
+}
+/*---------------------------------------------product*/
+.product {
+  display: flex;
+  /*flex-direction: row; no need, default*/
+  justify-content: center;
+  margin-bottom: 40;
+}
+.product img {
+  width: 300px;
+  height: 400px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+/*-------------------------------------------------------------foot*/
+/*control height*/
+.foot {
+  background-color: #404040;
+  font-weight: 200;
+}
+.foot * {
+  color: #cccccc;
+}
+/*-----------------------------------------------------foot_upper*/
+.foot_upper {
+  width: 918px;
+  margin: auto; /*center the whole block*/
+  display: flex;
+  justify-content: space-around; /*center elements within block*/
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+/*those who should be white*/
+.white {
+  color: white;
+}
+.white i {
+  color: white;
+}
+/*---------------------------------------------stay_contace*/
+#social_media {
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  padding-top: 8px;
+}
+/*----------------------------------------------be_our_friend*/
+#email {
+  border: white 1px solid;
+  width: 300px;
+  box-sizing: border-box; /*to let the width exactly equal to 300px*/
+  margin: 2% auto; /*space outside email*/
+  padding-left: 2%; /*space inside email*/
+  line-height: 1.86; /*to place text in the center of border*/
+}
+.be_our_friend > button {
+  background-color: ghostwhite;
+  color: black;
+  font-size: 14px;
+/*button size*/
+  height: 2.14em; /* 2.14*14px */
+  width: 6.5em;
+/*button position on the most right place*/
+  float: right;
+}
+.need_assistance {
+  text-align: center;
+}
+
+/*-----------------------------------------------------copyright*/
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.copyright a {
+  text-decoration: underline black;
+}
+.copyright i {
+  margin-right: 6px;
+}
